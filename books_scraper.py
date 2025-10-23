@@ -45,10 +45,8 @@ def scrape_books():
                 "avg_rating": avg_rating,
                 "published": published
             }
+            print(f"Successfully scraped {title} from {author}")
             if author not in authors:
                 authors.append(author)
 
     return books_dict, authors
-
-
-print(scrape_books())
