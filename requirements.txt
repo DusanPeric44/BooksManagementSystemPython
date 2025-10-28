@@ -8,3 +8,4 @@ pandas
 plotly
 beautifulsoup4
 sqlite3
+streamlit

@@ -5,8 +5,6 @@ from models.author import Author, AuthorCreate
 from database import get_db_connection
 from auth.security import get_api_key
 
-# 127.0.0.1/authors/3 DELETE
-
 router = APIRouter()
 
 @router.get('/', response_model=List[Author])
